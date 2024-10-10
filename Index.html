@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basel's Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Basel AL Wadia</h1>
+            <p>Creative Full Stack Developer</p>
+        </header>
+
+        <section class="profile">
+            <img src="Img\TalentUp.PNG" alt="Profile Picture" class="profile-picture">
+            <p class="bio">I'm Basel, a creative web developer passionate about vibrant user experiences. Let's build something colorful together!</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skill-container">
+                <div class="skill">
+                    <span>HTML / CSS / JS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>React / Node.js</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Python / Django</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>SQL / NoSQL Databases</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <button id="contactBtn">Get in Touch</button>
+        </section>
+
+        <!-- Modal for contact info -->
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Email: BaselALWadia@gmail.com</li>
+                    <li>Phone: +966 53 096 0712</li>
+                    <li>Location: Riyadh, KSA</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Basel AL Wadia. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Dark mode button -->
+    <button id="toggleMode">Toggle Dark Mode</button>
+
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
